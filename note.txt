@@ -17,5 +17,23 @@ useReducer Example:
 
 React Context
 
+    For using a react context we need to do some thinks:
+
+        1. create it;
+        2. provided;
+            It means to in JSX code to wrap all of the components that need to use this context;
+        3. consumed;
+
+    Context Limitations
+
+        React Context is NOT optimized for high frequency changes!
+
+Rules of Hooks
+
+    1. Only call React Hooks in React Functions;
     
+    2. Only call React Hoods at the Top Level;
+
+        -- Don't call them in nested functions;
+        -- Don't call them in any block statements;
     

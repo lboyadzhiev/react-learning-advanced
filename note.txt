@@ -1,0 +1,21 @@
+useEffect
+
+Resposible for catching side effect;
+Clean up fucntion in use Effect:
+
+    In useEffect we can return a fucntion, which will evaluate before the useEffect going to run nex time. The clean up up runn also wen the compoenent is removed from the DOM.
+
+
+useReducer
+
+Is really usefull when we need to update the state based on another state.
+
+useReducer Example:
+
+    const [state, dispatch] = useReducer(reducerFn, initialState, initFn);
+
+
+React Context
+
+    
+    
